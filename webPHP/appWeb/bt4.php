@@ -10,12 +10,15 @@
 
 <body>
     <?php
-
+ $tinh="";
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $number_1 = $_REQUEST["number1"];
         $number_2 = $_REQUEST["number2"];
         $operator = $_REQUEST["operation"];
         $tinh =0;
+        if (empty($number_1) || empty($number_2)) {
+          echo "vui long nhap thong tin";
+        }
         switch ($operator) {
             case 'cong':
                 $tinh = (int)$number_1 + (int) $number_2;

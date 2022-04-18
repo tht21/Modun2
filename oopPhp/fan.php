@@ -1,4 +1,5 @@
 <?php
+namespace oopPhp\index;
 class Fan
 {
     const SLOW = 1;
