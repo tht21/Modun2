@@ -54,3 +54,6 @@ class Fan
         }
     }
 }
+class a extends Fan {
+    public $a=5;
+}

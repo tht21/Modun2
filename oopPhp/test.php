@@ -1,27 +1,10 @@
 
 <?php
-class Battery
-{
-    private int $energy;
-    public function __construct()
-    {
-    }
-    public function getEnergy()
-    {
-        return $this->energy;
-    }
-    public function setEnergy($energy)
-    {
-        $this->energy = $energy;
-    }
-    public function decrementEnergy()
-    {
-        $this->energy -= 1;
-    }
-}
-$barrery = new Battery(500);
+$bang_diem = array(7, 5.5, 9, 6, 7.2, 7.8, 10, 5);
+sort($bang_diem);
 
-$barrery->setEnergy(3);
-
-echo $barrery->decrementEnergy();
-echo $barrery->getEnergy();
+$clength = count($bang_diem);
+for($x = 0; $x < $clength; $x++) {
+echo $bang_diem[$x];
+echo " ,";}
+?>

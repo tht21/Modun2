@@ -32,7 +32,5 @@ class linkedList
             $this->lastNode->link = $node;
         }
     }
-    public function removeFistNode($data): void
-    {
-    }
+  
 }

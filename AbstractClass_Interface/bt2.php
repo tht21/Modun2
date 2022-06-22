@@ -6,7 +6,7 @@ interface Resizeable
 {
     function resize(float $percent);
 }
-abstract class  Shape
+ class  Shape
 {
     public string $name;
 

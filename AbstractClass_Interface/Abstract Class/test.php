@@ -1,11 +1,11 @@
 <?php
-// abstract class Dongvat
-// {
-//     public  int $chan = 4;
-//     //khong dc viet body o trong
-//     //dinh nghia cho no
-//     abstract  function  run($chan);
-// }
+abstract class Dongvat
+{
+    public  int $chan = 4;
+    //khong dc viet body o trong
+    //dinh nghia cho no
+    abstract  function  run($chan);
+}
 // class cho extends Dongvat
 // {
 //     //override lai neu khong loi ne
@@ -41,3 +41,9 @@ class Cho implements Animal{
 // mo ta dem cac thuoc tinh  phg thuc
 //interface ban thiet ke dinh nghia phg  thuc hoat dong cua lop cha
 //
+  abstract class  amal{
+    public $a;
+function run(){
+
+}
+}
